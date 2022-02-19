@@ -183,11 +183,12 @@ Widget buildPickTimeCard({
   context,
   @required Color numberColor,
   @required Color containerColor,
+  @required String time
 
 })
 {
   return Container(
-    height: MediaQuery.of(context).size.height/20+10,
+    height: MediaQuery.of(context).size.height/20,
     decoration: BoxDecoration(
        color: containerColor,
       borderRadius: BorderRadius.circular(8)
@@ -202,7 +203,7 @@ Widget buildPickTimeCard({
           ),
         ),Padding(
           padding: const EdgeInsets.all(5),
-          child: Text('08:30 AM',style: TextStyle(color:kNumberInactiveColor
+          child: Text(time,style: TextStyle(color:kNumberInactiveColor
               ,fontSize: 16,fontWeight: FontWeight.w600),),
         )
       ],

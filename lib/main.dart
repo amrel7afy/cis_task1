@@ -28,7 +28,7 @@ class _MyAppState extends State<MyApp> {
           ),
           textTheme: TextTheme(
               bodyText1: TextStyle(
-                fontSize: 23,fontWeight: FontWeight.bold,
+                fontSize: 20,fontWeight: FontWeight.bold,
             color: Color(0xff48484A),
           )),
           scaffoldBackgroundColor: Color(0xFF143E54),
